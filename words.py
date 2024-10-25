@@ -1,18 +1,17 @@
-def animal():
-    word_animal = ["Dog","Cow","Cat","Horse","Donkey","Tiger","Lion","Panther",
-"Leopard","Cheetah","Bear","Elephant","Turtle","Tortoise","Crocodile",
-"Rabbit","Porcupine","Hare","Hen","Pigeon","Albatross","Crow","Fish",
-"Dolphin","Frog","Whale","Alligator","Eagle","Ostrich","Fox",
-"Goat","Jackal","Emu","Armadillo","Eel","Goose","Wolf",
-"Beagle","Gorilla","Chimpanzee","Monkey","Beaver","Orangutan","Antelope","Bat",
-"Badger","Giraffe","Panda","Hamster","Cobra","Camel","Hawk","Deer","Chameleon",
-"Hippopotamus","Jaguar","Chihuahua","Cobra","Ibex",
-"Lizard","Koala","Kangaroo","Iguana","Llama","Chinchillas","Dodo","Jellyfish",
-"Rhinoceros","Hedgehog","Zebra","Possum","Wombat","Bison","Bull","Buffalo",
-"Sheep","Meerkat","Mouse","Otter","Sloth","Owl","Vulture","Flamingo",
-"Racoon","Mole","Duck","Swan","Lynx","Lizard","Elk","Boar",
-"Lemur","Mule","Baboon","Mammoth","Whale","Rat","Snake","Peacock"]
-    return word_animal
+
+word_animal = ["dog","cow","cat","horse","donkey","tiger","lion","panther",
+"leopard","cheetah","bear","elephant","turtle","tortoise","crocodile",
+"rabbit","porcupine","hare","hen","pigeon","albatross","crow","fish",
+"dolphin","frog","whale","alligator","eagle","ostrich","fox",
+"goat","jackal","emu","armadillo","eel","goose","wolf",
+"beagle","gorilla","chimpanzee","monkey","beaver","orangutan","antelope","bat",
+"badger","giraffe","panda","hamster","cobra","camel","hawk","deer","chameleon",
+"hippopotamus","jaguar","chihuahua","cobra","ibex",
+"lizard","koala","kangaroo","iguana","llama","chinchillas","dodo","jellyfish",
+"rhinoceros","hedgehog","zebra","possum","wombat","bison","bull","buffalo",
+"sheep","meerkat","mouse","otter","sloth","owl","vulture","flamingo",
+"racoon","mole","duck","swan","lynx","lizard","elk","boar",
+"lemur","mule","baboon","mammoth","whale","rat","snake","peacock"]
 
 word_cars = []
 word_cities = []

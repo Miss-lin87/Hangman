@@ -2,4 +2,4 @@ trying.py
 description.txt
 _test.py
 extra_words.py
-_psycache_
+__pycache__
