@@ -1,4 +1,3 @@
-from words import word_animal
 import random
 import functions as fun
 
@@ -7,14 +6,15 @@ num_guesses = int(0)
 word = []
 hidden = []
 
-def game_start():
+def game_start(category):
     """This starts the game, picks global random word, hiddes the word and sets chanses"""
-    global word; word = fun.ran_word()
+    global word; word = fun.ran_word(category)
     # print(word)
     global hidden; hidden = fun.hidden(word)
     print("The word has been chosen:\n" + str(hidden))
     global chanses; chanses = len(word) + 2
     print("You now have " + str(chanses) + " chanses to guess the word")
+    return
 
 def reveal(word,guess_input):
     """This funktion will reveal the hidden word by replacing the _ spaces with the letter from the word"""
@@ -23,9 +23,9 @@ def reveal(word,guess_input):
         hidden[ind] = word[ind]
     return hidden
 
-def game_run():
+def game_run(category):
     """Just runs the game"""
-    game_start()
+    game_start(category)
     global word, chanses, hidden, num_guesses
     while chanses > 0:
             guess = fun.guess_test(fun.guess_user())
@@ -35,5 +35,3 @@ def game_run():
             if "_" not in hidden:
                 print("You win. You needed " + str(num_guesses) + " guesses to get the word")
                 break
-
-game_run()
